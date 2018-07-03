@@ -1,0 +1,68 @@
+@media screen and  (max-width: 1200px){ 
+    .product-3{
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .product-3 .product-card,
+    .product-3 .product-card_selected,
+    .product-3 .product-card_disabled{
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    .product-3 .viands-hidden, 
+    .product-3 .viands{
+        padding-top: 20px;
+    }
+    h1{
+        margin: 28px 0 22px;
+    }
+}
+@media screen and  (max-width: 768px){
+    .product-3,
+    .product-2,
+    .product-1{
+        margin-top: 60px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .product-2 .viands-hidden, 
+    .product-2 .viands,
+    .product-1 .viands-hidden, 
+    .product-1 .viands{
+        padding-top: 20px;
+    }
+}
+@media screen and  (max-width: 480px){ 
+    body{
+    	margin: auto 0 auto 0;
+    }
+    .product{
+        width: 280px;
+        background-size: 1400px 440px;
+    }
+    .product-card_selected,
+    .product-card_disabled,
+    .product-3 .product-card,
+    .product-card{
+        margin-top: 40px;
+    }
+    .product-3 .viands-hidden, 
+    .product-3 .viands,
+    .product-2 .viands-hidden, 
+    .product-2 .viands,
+    .product-1 .viands-hidden, 
+    .product-1 .viands{
+        padding-top: 35px;
+    }
+    .ponderosity {
+        margin-left: 68%;
+        margin-top: 56%;
+    }
+    .product-3 .ponderosity{
+        margin-top: 57%;
+    }
+
+}
